@@ -1,0 +1,27 @@
+.admonition-title, .admonition li, .admonition p {
+    font-size: smaller !important;
+}
+
+.zajimavost.admonition {
+    background: #e8efd2 !important; 
+}
+
+.zajimavost.admonition .admonition-title {
+    background: #a5c05a !important; 
+}
+
+.vite-ze.admonition {
+    background: #faf8dd !important;
+}
+
+.vite-ze.admonition .admonition-title {
+    background: #b9b476 !important; 
+}
+
+.doporucene-odkazy.admonition {
+    background: #def3f5 !important;
+}
+
+.doporucene-odkazy.admonition .admonition-title {
+    background: #60adb7 !important;
+}
