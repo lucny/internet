@@ -140,6 +140,7 @@ Zatímco protokol *TCP* zajišťuje spolehlivé doručení dat, protokol *IP* za
     :class: doporucene-odkazy 
 
     Další informace o Internetu a jeho principech můžete najít na následujících webových stránkách:
+    
     - `Internet Society <https://www.internetsociety.org/>`_
     - `World Wide Web Consortium (W3C) <https://www.w3.org/>`_
     - `The History of the Internet <https://www.history.com/topics/inventions/invention-of-the-internet>`_
