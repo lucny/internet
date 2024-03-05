@@ -21,6 +21,7 @@ Internet a web
    internet-www/internetove_vyhledavace
    internet-www/trendy_webu
 
+
 .. toctree::
    :maxdepth: 2
    :caption: Síťové aplikace a služby
@@ -35,6 +36,7 @@ Internet a web
    sitove-aplikace/socialni_site
    sitove-aplikace/dalsi_sluzby
    sitove-aplikace/bezpecnost
+
    
 .. toctree::
    :maxdepth: 2
