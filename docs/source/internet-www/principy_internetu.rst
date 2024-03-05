@@ -1,6 +1,6 @@
-===============
-Vývoj internetu
-===============
+==================
+Principy internetu
+==================
 
 .. contents:: Obsah
     :depth: 2
