@@ -1,6 +1,5 @@
-==================
 Internetové adresy
-==================    
+++++++++++++++++++    
 
 .. contents:: Obsah
     :depth: 2
