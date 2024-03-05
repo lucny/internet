@@ -1,4 +1,13 @@
-Úvod
-====
+.. toctree::
+   :maxdepth: 2
+   :caption: Internet a WWW
 
-Internet je celosvětová síť počítačů, která umožňuje přenos informací. Jak vlastně funguje? Jak se na něm pohybovat? A co je to vlastně WWW?
+   principy_internetu
+   internetove_adresy
+   protokoly_a_sluzby
+   principy_webu
+   protokol_http
+   cookies_session
+   internetove_prohlizece
+   internetove_vyhledavace
+   trendy_webu

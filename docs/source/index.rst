@@ -11,15 +11,15 @@ Internet a web
    :caption: Internet a WWW
 
    internet-www/index
-   internet-www/principy_internetu
-   internet-www/internetove_adresy
-   internet-www/protokoly_a_sluzby
-   internet-www/principy_webu
-   internet-www/protokol_http
-   internet-www/cookies_session
-   internet-www/internetove_prohlizece
-   internet-www/internetove_vyhledavace
-   internet-www/trendy_webu
+..   internet-www/principy_internetu
+..   internet-www/internetove_adresy
+..   internet-www/protokoly_a_sluzby
+..   internet-www/principy_webu
+..   internet-www/protokol_http
+..   internet-www/cookies_session
+..   internet-www/internetove_prohlizece
+..   internet-www/internetove_vyhledavace
+..   internet-www/trendy_webu
 
 
 .. toctree::
@@ -27,17 +27,17 @@ Internet a web
    :caption: Síťové aplikace a služby
 
    sitove-aplikace/index
-   sitove-aplikace/ftp
-   sitove-aplikace/sdileni_souboru
-   sitove-aplikace/vzdalene_pripojeni
-   sitove-aplikace/elektronicka_posta
-   sitove-aplikace/instant_messaging
-   sitove-aplikace/groupware
-   sitove-aplikace/socialni_site
-   sitove-aplikace/dalsi_sluzby
-   sitove-aplikace/bezpecnost
+..   sitove-aplikace/ftp
+..   sitove-aplikace/sdileni_souboru
+..   sitove-aplikace/vzdalene_pripojeni
+..   sitove-aplikace/elektronicka_posta
+..   sitove-aplikace/instant_messaging
+..   sitove-aplikace/groupware
+..   sitove-aplikace/socialni_site
+..   sitove-aplikace/dalsi_sluzby
+..   sitove-aplikace/bezpecnost
 
-   
+
 .. toctree::
    :maxdepth: 2
    :caption: HTML a CSS
