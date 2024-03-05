@@ -22,6 +22,10 @@ Internet můžeme považovat za síť typu **WAN** (*Wide Area Network* - "rozs�
 
     Internet jako propojení WAN sítí a intranet jako propojení LAN sítí
 
+.. admonition:: Co je to ISOC?
+    :class: zajimavost
+
+    ISOC (*Internet Society*) je mezinárodní nezisková organizace, která se zabývá rozvojem a standardizací Internetu. Byla založena v roce 1992 a jejím cílem je podpora otevřeného vývoje, evoluce a používání Internetu po celém světě. ISOC je také zodpovědná za správu některých klíčových technických aspektů Internetu, jako je například správa doménových jmen a čísel IP. Více informací najdete na `stránkách ISOC <https://www.internetsociety.org/>`_.
 
 
 Vývoj Internetu
