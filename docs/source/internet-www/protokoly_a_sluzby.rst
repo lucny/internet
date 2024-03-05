@@ -6,12 +6,12 @@ Internetové protokoly a služby
     :depth: 2
 
 Úvod
-====
+----    
 
 Internet je revoluční technologie, která změnila způsob, jakým lidé komunikují a sdílejí informace. Tento dokument se zabývá vývojem internetu a jeho principy.
 
 Principy internetu
-==================   
+------------------
 
 Internet je založen na několika základních principech, které mu umožňují fungovat efektivně a spolehlivě.
 
@@ -32,11 +32,11 @@ Internet je založen na několika základních principech, které mu umožňují
     - Je také interoperabilní, což znamená, že různé systémy a zařízení mohou spolupracovat a komunikovat mezi sebou.
 
 Závěr
-=====
+-----
 
 V tomto dokumentu jsme se seznámili s vývojem internetu a jeho základními principy. Internet je stále se rozvíjející technologie, která má obrovský dopad na naše životy.
 
 Další informace
-===============
+---------------
 
 Pro další informace o vývoji internetu a jeho principy doporučuji navštívit oficiální dokumentaci a zdroje.

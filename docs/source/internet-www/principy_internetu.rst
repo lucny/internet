@@ -1,18 +1,18 @@
 Základy Internetu
-+++++++++++++++++
+=================
 
 .. contents:: Obsah
     :depth: 3
 
 Co je to Internet?
-==================
+------------------
 
 Síť sítí
---------
+~~~~~~~~
 Internet je celosvětová počítačová síť, která spojuje jednotlivé menší sítě. Název pochází z anglického slova *network* (síť), podle něhož tradičně názvy amerických počítačových sítí končily *„net“*, a mezinárodní (původně latinské) předpony *inter* (mezi), vyjadřující, že internet propojil různé lokální sítě.
 
 WAN a LAN
----------
+~~~~~~~~~
 Internet můžeme považovat za síť typu **WAN** (*Wide Area Network* - "rozsáhlá síť"). Zkratkou **LAN** (*Local Area Network* - "místní síť") označujeme síťě uvnitř organizací (firmy, školy, úřadu) nebo i propojení zařízení v rámci domácí sítě. V těchto místních sítích mohou jejich uživatelé využívat uzavřené komunikační služby, které se symbolicky označují jako **intranet** ("vnitřní síť").
 
 .. figure:: media/internet-a-intranet.jpg
@@ -28,10 +28,10 @@ Internet můžeme považovat za síť typu **WAN** (*Wide Area Network* - "rozs�
 
 
 Vývoj Internetu
-===============
+---------------
 
 Na počátku byl ARPANET
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 Internet původně vznikl na konci 60. let v době studené války jako vojenský experiment, který měl ověřit určité principy v oblasti datových komunikací. Cílem bylo ověřit, zda je možné přenášet data nejen v souvislém proudu, ale i v malých celcích, tzv. *datových paketech*.
 
 K ověření těchto principů byla vybudována experimentální síť **ARPANET**, která byla financována vojenskou grantovou agenturou *Advanced Research Projects Agency* – ARPA, později přejmenovanou na DARPA. Síť byla uvedena do provozu v roce 1969 a na začátku byla tvořena 4 uzly. Po ukončení experimentu předala agentura síť akademickým institucím v USA. Během 70. a 80. let se na původní ARPANET připojovaly stále další akademické sítě.
@@ -46,7 +46,7 @@ K ověření těchto principů byla vybudována experimentální síť **ARPANET
 
 
 Zrození Internetu
------------------
+~~~~~~~~~~~~~~~~~
 Za "otce internetu" bývá označován americký informatik *Vint Cerf*, který se svým spolupracovníkem *Bobem Kahnem* použil v roce 1974 poprvé zkrácený pojem *internet* (místo delšího *internetworking*). Společně také stáli za vznikem **rodiny protokolů TCP/IP**, který je od 1. ledna 1983 oficiálně používán jako základní komunikační protokol celosvětové sítě.
 
 .. admonition:: Víte, že...
@@ -72,10 +72,10 @@ V roce 1993 se k Internetu připojují první česká místa, vzniká síť CESN
 
 
 Struktura Internetu
-===================
+-------------------
 
 Poskytovatelé Internetu
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 Samotný Internet tedy nikdo nevlastní, ale je tvořen sítěmi, které provozují jednotliví poskytovatelé. Ti se mezi sebou propojují a vytvářejí tak celosvětovou síť.
 
 Sítě jsou propojovány *hierarchickým způsobem* – jeden významnější poskytovatel (*upstream provider*, *backbone ISP*) se tak vůči druhému stává poskytovatelem konektivity a menší poskytovatelé zase disponují menšími sítěmi dalších lokálních poskytovatelů (*downstream provider*, *regional ISP*).
@@ -83,13 +83,13 @@ Sítě jsou propojovány *hierarchickým způsobem* – jeden významnější po
 Poskytovatel internetového připojení (**ISP** - *Internet service provider*), je firma nebo organizace prodávající nebo poskytující přístup do Internetu a příbuzné služby.
 
 Technická řešení sítí
---------------------- 
+~~~~~~~~~~~~~~~~~~~~~ 
 *Páteřní spoje* internetu (anglicky *backbone*) jsou dnes realizovány zejména pomocí optických kabelů. Klíčovou roli hrají podmořské kabely, které propojují kontinenty. Páteřní spoje jsou realizovány i pomocí satelitních spojů, ale ty jsou dnes již spíše doplňkové.
  
 Důležité jsou i spojení tzv. *"poslední míle"* - způsob, jak se k páteřní síti připojují koncoví uživatelé. V současnosti existuje několik možností pro připojení počítače k internetu: pomocí telefonní linky (majitelem linky je telefonní operátor), pomocí kabelové televize nebo vyhrazené linky, pomocí satelitní datové sítě, pozemní bezdrátové datové sítě nebo mobilní telefonní sítě. 
 
 Propojení sítí
---------------
+~~~~~~~~~~~~~~
 Kdyby zůstala striktně zachována hierarchičnost Internetu, procházela by většina spojení přes páteřní propojovací body, tzv. **NAP** (*Network Access Point*), které se většinou nacházely v zámoří a provoz Internetu by z toho důvodu byl velmi neefektivní a pomalý. 
 
 V průběhu 90. let minulého století docházelo ke vzniku tzv. *peeringových center*. **Peering** je přímé propojení mezi poskytovateli za účelem vzájemného a přímého předávání dat. Tento neutrální peeringový bod vznikl pro ČR v Praze a jeho provoz zajišťuje sdružení `NIX.CZ <https://nix.cz/cs>`_. 
@@ -102,17 +102,17 @@ V průběhu 90. let minulého století docházelo ke vzniku tzv. *peeringových 
 
 
 Principy Internetu
-==================
+------------------
 
 Decentralizovaná síť
---------------------
+~~~~~~~~~~~~~~~~~~~~
 Zrod Internetu byl úzce spojen se snahou vytvořit robustní komunikační síť, která mohla odolat i případnému jadernému útoku a zničení centrálních uzlů, na nichž byla založena tradiční telefonní síť a v ní používaná technologie **přepojování okruhů**. 
 
 Cíle *decentralizovat komunikaci* bylo dosaženo vyvinutím alternativní technologie **přepojování paketů**.
 
 
 Datové pakety a jejich směrování
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Základní princip je *analogií poštovní služby*: data jsou posílána postupně v menších "balících" - jako tzv. **datové pakety** (anglicky *packets*). Každý paket v sobě nese informaci (*IP adresu*) odesilatele i příjemce a je počítačovou sítí doručován samostatně.
 
 **Směrování** v uzlech sítě zajišťují specializované přepínače (například *switch*, *router*). Jednotlivé pakety mohou sítí putovat různými cestami, a proto mohou k příjemci dorazit za různě dlouhou dobu i v odlišném pořadí. 
@@ -121,7 +121,7 @@ Hlavní výhodou takového síťového provozu je možnost použít k přepravě
 
 
 Rodina protokolů TCP/IP
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 Na straně příjemce pak musí proběhnout poskládání všech souvisejících paketů do správného pořadí, aby posílaná data získala původní podobu a dávala smysl. K tomuto účelu se využívají *metadata* (různé pomocné informace), jež jsou součástí každého paketu. Důležitou roli v tom hrají rovněž tzv. **protokoly**.
 
 Pro komunikaci v Internetu se používá rodina protokolů **TCP/IP**, která je základem celosvětové sítě. Protokol představuje soubor pravidel, která určují, jak mají být data přenášena v počítačové síti. Základem TCP/IP jsou dva klíčové protokoly: **TCP** (*Transmission Control Protocol*) a **IP** (*Internet Protocol*).
