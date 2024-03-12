@@ -11,15 +11,6 @@ Internet a web
    :caption: Internet a WWW
 
    internet-www/index
-..   internet-www/principy_internetu
-..   internet-www/internetove_adresy
-..   internet-www/protokoly_a_sluzby
-..   internet-www/principy_webu
-..   internet-www/protokol_http
-..   internet-www/cookies_session
-..   internet-www/internetove_prohlizece
-..   internet-www/internetove_vyhledavace
-..   internet-www/trendy_webu
 
 
 .. toctree::
@@ -27,15 +18,6 @@ Internet a web
    :caption: Síťové aplikace a služby
 
    sitove-aplikace/index
-..   sitove-aplikace/ftp
-..   sitove-aplikace/sdileni_souboru
-..   sitove-aplikace/vzdalene_pripojeni
-..   sitove-aplikace/elektronicka_posta
-..   sitove-aplikace/instant_messaging
-..   sitove-aplikace/groupware
-..   sitove-aplikace/socialni_site
-..   sitove-aplikace/dalsi_sluzby
-..   sitove-aplikace/bezpecnost
 
 
 .. toctree::
@@ -68,3 +50,5 @@ Internet je fenomén, který ovlivňuje každodenní život a otevírá nám nek
 Ale jak, kdy a proč vlastně Internet vznikl? Jaké jsou jeho základní principy, které mu umožňují být tak efektivní a spolehlivý? V této elektronické knize budeme společně zkoumat fascinující svět, který se skrývá za webovými stránkami a online službami.
 
 Připojte se k nám na této cestě objevování a pochopení Internetu. Získáte nejen znalosti o jeho fungování, ale také pochopíte, jak a díky čemu se stal tak důležitou součástí našich životů.
+
+https://rsted.info.ucl.ac.be/
